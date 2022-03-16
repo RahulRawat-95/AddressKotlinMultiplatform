@@ -1,0 +1,10 @@
+{
+  "name": "AddressLibrary",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "kotlin/AddressLibrary.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

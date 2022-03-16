@@ -1,0 +1,139 @@
+{
+  "projectStructure": {
+    "formatVersion": "0.3.1",
+    "isPublishedAsRoot": "true",
+    "variants": [
+      {
+        "name": "debugApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "debugRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "iosArm64ApiElements",
+        "sourceSet": [
+          "commonMain",
+          "iosMain",
+          "sqlDriverNativeMain"
+        ]
+      },
+      {
+        "name": "iosX64ApiElements",
+        "sourceSet": [
+          "commonMain",
+          "iosMain",
+          "sqlDriverNativeMain"
+        ]
+      },
+      {
+        "name": "jsApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "jsRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "jvmApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "jvmRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "nativeApiElements",
+        "sourceSet": [
+          "commonMain",
+          "sqlDriverNativeMain"
+        ]
+      }
+    ],
+    "sourceSets": [
+      {
+        "name": "commonMain",
+        "dependsOn": [],
+        "moduleDependency": [
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-serialization",
+          "io.ktor:ktor-client-logging",
+          "com.squareup.sqldelight:runtime",
+          "com.squareup.sqldelight:coroutines-extensions",
+          "org.kodein.di:kodein-di",
+          "org.jetbrains.kotlin:kotlin-stdlib-common"
+        ],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "iosMain",
+        "dependsOn": [
+          "commonMain",
+          "sqlDriverNativeMain"
+        ],
+        "moduleDependency": [
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-serialization",
+          "io.ktor:ktor-client-logging",
+          "com.squareup.sqldelight:runtime",
+          "com.squareup.sqldelight:coroutines-extensions",
+          "org.kodein.di:kodein-di",
+          "org.jetbrains.kotlin:kotlin-stdlib-common",
+          "com.squareup.sqldelight:native-driver",
+          "io.ktor:ktor-client-ios"
+        ],
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      },
+      {
+        "name": "sqlDriverNativeMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-serialization",
+          "io.ktor:ktor-client-logging",
+          "com.squareup.sqldelight:runtime",
+          "com.squareup.sqldelight:coroutines-extensions",
+          "org.kodein.di:kodein-di",
+          "org.jetbrains.kotlin:kotlin-stdlib-common",
+          "com.squareup.sqldelight:native-driver"
+        ],
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      }
+    ]
+  }
+}

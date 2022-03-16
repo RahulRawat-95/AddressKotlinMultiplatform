@@ -1,0 +1,221 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../AddressLibrary/1.0-SNAPSHOT/AddressLibrary-1.0-SNAPSHOT.module",
+    "group": "me.rahulrawat",
+    "module": "AddressLibrary",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.6.0-native-mt",
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.kodein.di",
+          "module": "kodein-di",
+          "version": {
+            "requires": "7.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AddressLibrary.klib",
+          "url": "AddressLibrary-iosarm64-1.0-SNAPSHOT.klib",
+          "size": 75514,
+          "sha512": "362d34dd614e35c8f54c5b0be4b4dbf949cb59c8edd4f1fdedc79ea93cae9361d4e15e06ed8160ce537f101511c067c2c2b44d91abd98bf4117593bb032d8bd0",
+          "sha256": "96d9dd5e2960bb9be0d193948dc5d264dc501a2c893e3850bd0a9ba238ca31c7",
+          "sha1": "9a0c2dd8b4ba9011dff737b7972982822aa860e7",
+          "md5": "c74b6e0ee8f1017e253821b56857b8f5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.6.0-native-mt",
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.kodein.di",
+          "module": "kodein-di",
+          "version": {
+            "requires": "7.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AddressLibrary-iosarm64-1.0-SNAPSHOT-metadata.jar",
+          "url": "AddressLibrary-iosarm64-1.0-SNAPSHOT-metadata.jar",
+          "size": 10141,
+          "sha512": "b57339331954e7642ff32573f049abd8a2ce61b60a887cdb857ed2852393336bd0209332912b4ee13febce19f456b4049d56e9f34f30f307659a8ba92705709c",
+          "sha256": "f533b26d40509f83779dabcc9db31468f28631577692db1954044d168e84b127",
+          "sha1": "d2a9c68176b09bd9f51bc53e7f4cc85d01fa1d78",
+          "md5": "5970c61a0e4f8d0561878c46884bfea0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module AddressLib {
+    umbrella header "AddressLib.h"
+
+    export *
+    module * { export * }
+}

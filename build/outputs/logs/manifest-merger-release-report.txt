@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml:2:1-103
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml:2:1-103
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml:2:1-103
+	package
+		ADDED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml:2:70-101
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/rahulrawat/Desktop/Projects/kmp/AddressLibrary/src/androidMain/AndroidManifest.xml

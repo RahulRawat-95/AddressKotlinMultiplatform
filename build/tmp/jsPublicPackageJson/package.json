@@ -1,0 +1,11 @@
+{
+  "name": "AddressLibrary",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "AddressLibrary.js",
+  "types": "AddressLibrary.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

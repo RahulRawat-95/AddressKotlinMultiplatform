@@ -1,0 +1,57 @@
+import com.library.address.repository.CrudState;
+
+CREATE TABLE Address (
+    id INTEGER PRIMARY KEY,
+    firstname TEXT DEFAULT NULL,
+    lastname TEXT DEFAULT NULL,
+    address1 TEXT NOT NULL,
+    address2 TEXT DEFAULT NULL,
+    city TEXT NOT NULL,
+    zipcode TEXT NOT NULL,
+    phone TEXT DEFAULT NULL,
+    state_name TEXT DEFAULT NULL,
+    alternative_phone TEXT DEFAULT NULL,
+    company TEXT DEFAULT NULL,
+    state_id INTEGER NOT NULL,
+    country_id INTEGER NOT NULL,
+    crud_state TEXT AS CrudState,
+    is_default INTEGER AS Boolean DEFAULT 0
+);
+
+CREATE TABLE LocalAddressId (
+    id INTEGER PRIMARY KEY
+);
+
+insertOrReplace:
+INSERT OR REPLACE INTO Address(id, firstname, lastname, address1, address2, city, zipcode, phone, state_name, alternative_phone, company, state_id, country_id, crud_state, is_default)
+    VALUES(:id, :firstname, :lastname, :address1, :address2, :city, :zipcode, :phone, :state_name, :alternative_phone, :company, :state_id, :country_id, :crud_state, :is_default);
+
+getAllAddress:
+SELECT * FROM Address WHERE crud_state IN :crudStates ORDER BY id;
+
+deleteAllAddressWithStates:
+DELETE FROM Address WHERE crud_state IN :crudStates;
+
+deleteAddressById:
+DELETE FROM Address WHERE id = :id;
+
+setDefault:
+UPDATE Address SET is_default = 1 WHERE id = :id;
+
+removeCurrentDefault:
+UPDATE Address SET is_default = 0 WHERE is_default = 1;
+
+setCrudState:
+UPDATE Address SET crud_state = :crudState WHERE id = :id;
+
+updateId:
+UPDATE Address SET id = :newId WHERE id = :oldId;
+
+fetchLatestLocalId:
+SELECT id FROM LocalAddressId;
+
+insertLocalId:
+INSERT INTO LocalAddressId(id) VALUES(:id);
+
+updateLocalId:
+UPDATE LocalAddressId SET id = :newId;

@@ -1,0 +1,416 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.rahulrawat",
+    "module": "AddressLibrary",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.6.0-native-mt",
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.kodein.di",
+          "module": "kodein-di",
+          "version": {
+            "requires": "7.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "1.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AddressLibrary-metadata-1.0-SNAPSHOT-all.jar",
+          "url": "AddressLibrary-1.0-SNAPSHOT-all.jar",
+          "size": 14575,
+          "sha512": "eb1d79799b03e9199a60653734dd6bdf4e9236c258bfeed38832b3cb741fcd2e0f15289395cad28d9b50c1b4cf59fbb9709806f49228238120d42fe51dbc59bf",
+          "sha256": "6f30de3b974c431564e45f1bbe9a2781aabaecd06598a4a151bfb363b43e7b35",
+          "sha1": "efb9fbfbc45e1860daa46eb7d547d3d98a2cfd76",
+          "md5": "75ed0dad185d2362e5731a4093b03718"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.6.0-native-mt",
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.kodein.di",
+          "module": "kodein-di",
+          "version": {
+            "requires": "7.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AddressLibrary-1.0-SNAPSHOT.jar",
+          "url": "AddressLibrary-1.0-SNAPSHOT.jar",
+          "size": 15928,
+          "sha512": "28b91d70392fbff80b52e76d3f2528a9e7dbe979e4a42ee99597aa160d9d61df6b54b940885f2a743910b5dd969b8a9e0f28ed1053d0b3a060cb64ebf5ec7f8f",
+          "sha256": "7d90300f2e4549ac8104ea5f7a870c0bade38a9807968dca99315b70b0e471be",
+          "sha1": "5205be60689aed92f728b385526e52f4e4182ce9",
+          "md5": "41a15e26275e8bb89a90c5916d32f208"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-android-debug/1.0-SNAPSHOT/AddressLibrary-android-debug-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-android-debug",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-android-debug/1.0-SNAPSHOT/AddressLibrary-android-debug-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-android-debug",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-android/1.0-SNAPSHOT/AddressLibrary-android-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-android",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-android/1.0-SNAPSHOT/AddressLibrary-android-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-android",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-iosarm64/1.0-SNAPSHOT/AddressLibrary-iosarm64-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-iosarm64",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-iosarm64/1.0-SNAPSHOT/AddressLibrary-iosarm64-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-iosarm64",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-iosx64/1.0-SNAPSHOT/AddressLibrary-iosx64-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-iosx64",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-iosx64/1.0-SNAPSHOT/AddressLibrary-iosx64-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-iosx64",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-js/1.0-SNAPSHOT/AddressLibrary-js-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-js/1.0-SNAPSHOT/AddressLibrary-js-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-jvm/1.0-SNAPSHOT/AddressLibrary-jvm-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-jvm",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-jvm/1.0-SNAPSHOT/AddressLibrary-jvm-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-jvm",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-native/1.0-SNAPSHOT/AddressLibrary-native-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-native",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../AddressLibrary-native/1.0-SNAPSHOT/AddressLibrary-native-1.0-SNAPSHOT.module",
+        "group": "me.rahulrawat",
+        "module": "AddressLibrary-native",
+        "version": "1.0-SNAPSHOT"
+      }
+    }
+  ]
+}

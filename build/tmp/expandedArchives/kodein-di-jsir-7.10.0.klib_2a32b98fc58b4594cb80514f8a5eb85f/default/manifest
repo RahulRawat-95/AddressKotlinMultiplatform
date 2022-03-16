@@ -1,0 +1,8 @@
+builtins_platform=JS
+unique_name=org.kodein.di\:kodein-di
+compiler_version=1.6.10
+depends=org.kodein.type\:kodein-type kotlin
+jsOutputName=Kodein-DI-kodein-di-js-ir
+abi_version=1.6.0
+metadata_version=1.4.1
+ir_version=1.0.0
